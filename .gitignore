@@ -1,0 +1,97 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python Backend
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/.nuxt/
+frontend/.output/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# Python local database/files
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Uploaded/generated files
+# =========================
+backend/uploads/
+backend/temp/
+backend/output/
+
+# =========================
+# ML / AI generated files
+# =========================
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/

@@ -53,7 +53,7 @@ export default function Dashboard() {
     <div>
       <div className="page-header">
         <div className="eyebrow">Research Dashboard</div>
-        <h1>Cohort overview</h1>
+        <h1></h1>
       </div>
 
       {error && <div className="error-banner">{error}</div>}

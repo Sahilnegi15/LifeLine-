@@ -10,15 +10,15 @@ from .routers import patients, stats, analysis, ml
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    title="NeoSankalp API",
+    title="LifeLine",
     description="Neonatal telemedicine & research monitoring platform",
     version="0.1.0",
 )
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173","https://life-line-dun.vercel.app"],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )

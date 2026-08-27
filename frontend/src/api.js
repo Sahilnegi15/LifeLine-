@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000/api";
+const BASE_URL = "https://lifeline-epao.onrender.com";
 
 async function request(path, options = {}) {
   const res = await fetch(`${BASE_URL}${path}`, {

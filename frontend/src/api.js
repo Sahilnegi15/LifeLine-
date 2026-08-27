@@ -1,5 +1,6 @@
 const BASE_URL = "https://lifeline-epao.onrender.com/api";
-
+console.log("🔥 API.JS LOADED");
+console.log("🔥 BASE_URL =", BASE_URL);
 async function request(path, options = {}) {
   const res = await fetch(`${BASE_URL}${path}`, {
     headers: { "Content-Type": "application/json" },
